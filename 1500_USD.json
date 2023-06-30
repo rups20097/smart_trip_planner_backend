@@ -1,0 +1,72 @@
+{
+    "budget": 1500,
+    "itinerary": [
+        {
+            "day": 1,
+            "plan": {
+                "heading": "Arrival in Boston",
+                "details": "Arrive in Boston and check into a budget-friendly hotel or hostel. Spend the day exploring the city's historic sites, such as the Freedom Trail, Boston Common, and the Paul Revere House. Enjoy a budget-friendly dinner at one of the local pubs or food trucks."
+            },
+            "hotels": [
+                {
+                    "name": "Wyndham boston beacon hill",
+                    "url": "https://www.wyndhambeaconhill.com"
+                }
+            ]
+        },
+        {
+            "day": 2,
+            "plan": {
+                "heading": "Boston",
+                "details": "Visit the Museum of Fine Arts, which offers free admission on certain days or discounted tickets for students. Explore the picturesque Beacon Hill neighborhood and enjoy a stroll along the Charles River Esplanade. In the evening, experience the lively atmosphere at Quincy Market and indulge in some affordable street food."
+            }
+        },
+        {
+            "day": 3,
+            "plan": {
+                "heading": "Salem Day Trip",
+                "details": "Take a day trip to Salem by train or bus. Explore the Salem Witch Museum and the historic sites associated with the Salem Witch Trials. Visit the Peabody Essex Museum, which showcases art and culture from around the world. Enjoy a budget-friendly seafood dinner at one of the local restaurants in Salem."
+            }
+        },
+        {
+            "day": 4,
+            "plan": {
+                "heading": "Cape Cod",
+                "details": "Next day reach at Cape Cod, known for its beautiful beaches and charming towns. Spend the day exploring the Cape Cod National Seashore, relaxing on the beach, and visiting the Cape Cod Museum of Natural History. Consider packing a picnic lunch to save on food costs"
+            },
+            "hotels": [
+                {
+                    "name": "Travelodge by Wyndham Cape Cod Area",
+                    "url": "https://www.wyndhamhotels.com/travelodge/west-dennis-massachusetts/travelodge-cape-cod-area/overview"
+                }
+            ]
+        },
+        {
+            "day": 5,
+            "plan": {
+                "heading": "Martha's Vineyard",
+                "details": "Take a ferry from Cape Cod to Martha's Vineyard. Explore the island's charming towns, visit the Martha's Vineyard Museum, and enjoy the scenic beauty of the island. Opt for a budget-friendly dinner at one of the casual eateries on the island."
+            }
+        },
+        {
+            "day": 6,
+            "plan": {
+                "heading": "Lexington and Concord",
+                "details": "Take a day trip to Lexington and Concord, important sites from the American Revolutionary War. Visit Lexington Battle Green, where the first shots of the war were fired, and the Minute Man National Historical Park. Explore the historic town of Concord and visit the homes of renowned authors like Louisa May Alcott and Ralph Waldo Emerson. Pack a picnic lunch to enjoy in one of the parks or by the Concord River."
+            },
+            "hotels": [
+                {
+                    "name": "Origin Lexington, a Wyndham Hotel",
+                    "url": "https://www.wyndhamhotels.com/wyndham/lexington-kentucky/origin-lexington/overview"
+                }
+            ]
+        },
+        {
+            "day": 7,
+            "plan": {
+                "heading": "Boston",
+                "details": "Return to Boston and spend the day exploring areas you may have missed earlier, such as the Boston Public Garden or the Museum of Science. Take a leisurely walk along the picturesque Charles River and enjoy the city's vibrant atmosphere. Wrap up your trip with a budget-friendly dinner at a local restaurant."
+            }
+        }
+    ]
+}
