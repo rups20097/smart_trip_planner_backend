@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 const dialogflow_Q = require('./plan_a_trip')
+const chatGptJS = require('./chatGptTest')
 var bodyParser = require('body-parser')
 const cors = require('cors');
 // const { response } = require("express");
@@ -21,14 +22,26 @@ app.post("/test", (request, response) => {
     
 });
 
-app.post("/getItinerary", (request, response) => {
-    if (request.body.amount == 1500) {
-        let rawdata = fs.readFileSync(`./1500_USD.json`);
-        rawdata = JSON.parse(rawdata);
-        response.json(rawdata)
-    } else {
-        res.json({})
-    }
+// app.post("/getItinerary", (request, response) => {
+//     if (request.body.amount == 1500) {
+//         let rawdata = fs.readFileSync(`./1500_USD.json`);
+//         rawdata = JSON.parse(rawdata);
+//         response.json(rawdata)
+//     } else {
+//         response.json({})
+//     }
+// })
+
+app.post("/askChatGpt", (request, response) => {
+    console.log('ASKED TO CHATGPT TO - ', request.body.prompt)
+    chatGptJS.askChatGpt(request.body).then(resp => {
+        console.log('CHATGPT RESPONDED - ', resp)
+        if (resp.response) {
+            response.json(resp)
+        } else {
+            res.status(500).send(resp)
+        }
+    })
 })
 
 var port = process.env.PORT || 3000;
