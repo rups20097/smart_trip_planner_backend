@@ -39,7 +39,7 @@ app.post("/askChatGpt", (request, response) => {
         if (resp.response) {
             response.json(resp)
         } else {
-            res.status(500).send(resp)
+            response.status(500).send(resp)
         }
     })
 })

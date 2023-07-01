@@ -1,12 +1,12 @@
 const { OpenAIApi, Configuration } = require("openai");
+const env = require('./.env')
 // import dotenv from "dotenv";
 
 // dotenv.config();
 
 // OpenAIApi required config
 const configuration = new Configuration({
-    apiKey: "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",
-    // apiKey: process.env.API_KEY,
+    apiKey: env.CHATGPT_API_KEY,
 });
 
 // OpenAIApi initialization
